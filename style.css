@@ -1,0 +1,280 @@
+*,
+html body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0px;
+}
+
+.p-navbar {
+  text-transform: capitalize;
+  padding-top: -10px;
+  font-size: 25px;
+  position: relative;
+  right: 200px;
+  cursor: pointer;
+}
+
+.p-navbar i {
+  font-weight: bold;
+  position: relative;
+  left: 300px;
+}
+
+.ul-navbar {
+  display: flex;
+}
+
+.li-navbar {
+  list-style: none;
+  position: relative;
+  left: 200px;
+}
+
+.a-navbar {
+  text-decoration: none;
+  padding: 15px;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  top: 4px;
+  border-radius: 50px;
+}
+
+.a-navbar:hover {
+  background-color: gray;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.content {
+  padding-left: 150px;
+  padding-top: 80px;
+}
+
+.content h3 {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 200px;
+  border-radius: 200px;
+  position: relative;
+  left: 650px;
+  bottom: 5px;
+}
+
+.isi {
+  position: relative;
+  bottom: 560px;
+  padding-left: 70px;
+}
+
+span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.jual {
+  display: flex;
+  position: relative;
+  top: 50px;
+}
+.beli1 {
+  background-color: rgb(195, 216, 253);
+  color: rgb(122, 168, 248);
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+}
+.beli2 {
+  background-color: #dadada;
+  color: black;
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+}
+.beli3 {
+  background-color: #dadada;
+  color: black;
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+}
+
+.button-rent {
+  background-color: rgb(28, 104, 245);
+  width: 100px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+#product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kelas-produk {
+  text-transform: capitalize;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.card {
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.fa {
+  margin: 5px;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  text-align: center;
+  color: white;
+}
+
+#about-us {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.about h2 {
+  text-transform: capitalize;
+}
+
+.kolom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10rem;
+}
+
+.baris {
+  padding-top: 3rem;
+}
+
+.para {
+  max-width: 400px;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.baris img {
+  width: 300px;
+  height: 300px;
+  padding-right: 20rem;
+}
+
+.footer-container {
+  background-color: #333;
+  height: 60vh;
+  color: white;
+  text-transform: capitalize;
+}
+
+.col-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mari {
+  padding-top: 6rem;
+}
+
+.ul-footer {
+  padding-top: 2rem;
+}
+
+.li-footer {
+  padding-top: 8px;
+  list-style: none;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.a-footer:hover {
+  background-color: #666;
+  color: #dadada;
+  border-radius: 10px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.fa {
+  color: white;
+}
+
+.hore {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
